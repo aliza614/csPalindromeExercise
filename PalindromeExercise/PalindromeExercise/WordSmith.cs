@@ -15,7 +15,7 @@ namespace PalindromeExercise
             }
             return true;*/
 
-            return s.ToLower().SequenceEqual(s.ToLower().Reverse());
+            return s.Replace(" ","").ToLower().SequenceEqual(s.ToLower().Replace(" ","").Reverse());
         }
     }
 }
