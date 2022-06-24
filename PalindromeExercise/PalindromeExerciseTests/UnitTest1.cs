@@ -22,5 +22,6 @@ namespace PalindromeExerciseTests
         }
     }
     //Red-run all tests DONE
-    //green-Implement
+    //green-Implement DONE
+    //refactor
 }

@@ -8,7 +8,11 @@ namespace PalindromeExercise
     {
         public bool IsAPalindrome(string s)
         {
-            throw new NotImplementedException();
+            for(int i = 0; i < s.Length/2; i++)
+            {
+                if (s[i] != s[s.Length-1-i]) return false;
+            }
+            return true;
         }
     }
 }
